@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(229, 227, 201)
+}
+
+header {
+    background-color: rgb(180, 207, 176);
+    text-align: center;
+}
+
+iframe {
+    border: none;
+    overflow: hidden;
+}
+
+div {
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+
+}
+
+article {
+    background-color: rgb(180, 207, 176);
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(180, 207, 176);
+    padding: 10px;
+    display: inline-block;
+    
+
+}
+
+nav a:hover {
+    color: rgb(148, 180, 159);
+    background-color: rgb(122, 137, 127);
+
+}
+
+.centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dotted gray;
+    width: 40%;
+
+}
+
+.adaptable {
+    width: 100%;
+    height: auto;
+}
+
+.costado {
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    border: 2px dotted gray;
+    width: 40%;
+
+
+}
+
+.seccion-juego{
+    text-align: center;
+}
